@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-12T23:09:14.097625" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot-Magneto-Sale" source="C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale">
+<suite id="s1-s1" name="Tests" source="C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests">
+<suite id="s1-s1-s1" name="Sale Page" source="C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests\sale_page.robot">
+<test id="s1-s1-s1-t1" name="Open Page And Click Men Category" line="8">
+<kw name="Open Chrome With Manager">
+<msg time="2025-05-12T23:09:15.268757" level="FAIL">No keyword with name 'Open Chrome With Manager' found.</msg>
+<arg>${URL}</arg>
+<status status="FAIL" start="2025-05-12T23:09:15.267153" elapsed="0.002455">No keyword with name 'Open Chrome With Manager' found.</status>
+</kw>
+<kw name="Click Men Category">
+<status status="NOT RUN" start="2025-05-12T23:09:15.270980" elapsed="0.000972"/>
+</kw>
+<kw name="Set Implicit Wait">
+<arg>5</arg>
+<status status="NOT RUN" start="2025-05-12T23:09:15.273228" elapsed="0.001198"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2025-05-12T23:09:15.275740" elapsed="0.000801"/>
+</kw>
+<status status="FAIL" start="2025-05-12T23:09:15.263992" elapsed="0.013583">No keyword with name 'Open Chrome With Manager' found.</status>
+</test>
+<status status="FAIL" start="2025-05-12T23:09:14.163042" elapsed="1.116821"/>
+</suite>
+<status status="FAIL" start="2025-05-12T23:09:14.159907" elapsed="1.123189"/>
+</suite>
+<status status="FAIL" start="2025-05-12T23:09:14.129452" elapsed="1.155724"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot-Magneto-Sale" id="s1" pass="0" fail="1" skip="0">Robot-Magneto-Sale</stat>
+<stat name="Tests" id="s1-s1" pass="0" fail="1" skip="0">Robot-Magneto-Sale.Tests</stat>
+<stat name="Sale Page" id="s1-s1-s1" pass="0" fail="1" skip="0">Robot-Magneto-Sale.Tests.Sale Page</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-12T23:09:15.246666" level="ERROR">Error in file 'C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests\sale_page.robot' on line 2: Importing library 'C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources\browser_actions.py' failed: ModuleNotFoundError: No module named 'resources'
+Traceback (most recent call last):
+  File "C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources\browser_actions.py", line 5, in &lt;module&gt;
+    from resources.driver_manager import set_driver, get_driver
+PYTHONPATH:
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\lib
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources
+  c:\Users\sebas\.vscode\extensions\d-biehl.robotcode-1.2.0\bundled\libs
+  c:\Users\sebas\.vscode\extensions\d-biehl.robotcode-1.2.0\bundled\tool\robotcode
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv\Lib\site-packages</msg>
+<msg time="2025-05-12T23:09:15.256413" level="ERROR">Error in file 'C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests\sale_page.robot' on line 3: Importing library 'C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources\product_actions.py' failed: ModuleNotFoundError: No module named 'resources'
+Traceback (most recent call last):
+  File "C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources\product_actions.py", line 3, in &lt;module&gt;
+    from resources.driver_manager import get_driver
+PYTHONPATH:
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\lib
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources
+  c:\Users\sebas\.vscode\extensions\d-biehl.robotcode-1.2.0\bundled\libs
+  c:\Users\sebas\.vscode\extensions\d-biehl.robotcode-1.2.0\bundled\tool\robotcode
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv\Lib\site-packages</msg>
+</errors>
+</robot>

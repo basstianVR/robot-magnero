@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-12T23:20:24.817628" rpa="false" schemaversion="5">
+<suite id="s1" name="Sale Page" source="C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests\sale_page.robot">
+<test id="s1-t1" name="Open Page And Click Men Category" line="8">
+<kw name="Open Chrome With Manager">
+<msg time="2025-05-12T23:20:25.909833" level="FAIL">No keyword with name 'Open Chrome With Manager' found.</msg>
+<arg>${URL}</arg>
+<status status="FAIL" start="2025-05-12T23:20:25.909769" elapsed="0.000143">No keyword with name 'Open Chrome With Manager' found.</status>
+</kw>
+<kw name="Click Men Category">
+<status status="NOT RUN" start="2025-05-12T23:20:25.910256" elapsed="0.000035"/>
+</kw>
+<kw name="Set Implicit Wait">
+<arg>5</arg>
+<status status="NOT RUN" start="2025-05-12T23:20:25.910521" elapsed="0.000022"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2025-05-12T23:20:25.910705" elapsed="0.000018"/>
+</kw>
+<status status="FAIL" start="2025-05-12T23:20:25.908037" elapsed="0.002914">No keyword with name 'Open Chrome With Manager' found.</status>
+</test>
+<status status="FAIL" start="2025-05-12T23:20:24.820080" elapsed="1.092073"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Sale Page" id="s1" pass="0" fail="1" skip="0">Sale Page</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-12T23:20:25.903176" level="ERROR">Error in file 'C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests\sale_page.robot' on line 2: Importing library 'browser_actions.BrowserManager' failed: ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources\browser_actions.py", line 5, in &lt;module&gt;
+    from .driver_manager import set_driver, get_driver
+PYTHONPATH:
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv\Scripts\robot.exe
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv\Lib\site-packages</msg>
+<msg time="2025-05-12T23:20:25.906782" level="ERROR">Error in file 'C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\tests\sale_page.robot' on line 3: Importing library 'product_actions.ProductActions' failed: ImportError: attempted relative import with no known parent package
+Traceback (most recent call last):
+  File "C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources\product_actions.py", line 3, in &lt;module&gt;
+    from .driver_manager import get_driver
+PYTHONPATH:
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv\Scripts\robot.exe
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\resources
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\sebas\AppData\Local\Programs\Python\Python313
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv
+  C:\Users\sebas\OneDrive - Universidad Icesi\Documentos\Programacion\Proyectos de automatizacion\robot-magneto-sale\venv\Lib\site-packages</msg>
+</errors>
+</robot>
