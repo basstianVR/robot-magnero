@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Robot Framework output folder
+results/
+
+# Ignore test output files in the root
+log.html
+output.xml
+report.html
+
+# Ignore Python cache
+__pycache__/
