@@ -1,5 +1,5 @@
 {
-    "robot.pythonpath": [
-    "${workspaceFolder}/resources"
-]
+"terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}"
+}
 }
